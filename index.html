@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JAT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./src/constants.js"></script>
+    <script src="./src/helpers.js"></script>
+    <script src="./src/resources.js"></script>
+    <script src="./src/keyboard.js"></script>
+    <script src="./src/tetris.js"></script>
+    <script src="./src/game.js"></script>
+</head>
+
+<body>
+    <div id='hud'>
+        <p>SCORE: <span id='score'>0</span></p>
+        <p>LINES: <span id='lines'>0</span></p>
+        <p>LEVEL: <span id='level'>1</span></p>
+        <p>&ThickSpace;</p>
+        <p>&ThickSpace;</p>
+        <div id='inst' class='small'>
+            <p>PAUSE: P<br />
+                RESTART: R<br />
+                MOVE: LEFT &amp; RIGHT<br />
+                ROTATE: UP<br />
+                SOFT DROP: DOWN<br />
+                DROP: SPACE</p>
+        </div>
+    </div>
+    <div id='btn'>
+        <div>
+            <img src="img/u.gif" width="53" height="53" id='up' />
+        </div>
+        <div>
+            <img src="img/l.gif" width="53" height="53" id='left' />
+            <img src="img/d.gif" width="53" height="53" id='down' />
+            <img src="img/r.gif" width="53" height="53" id='right' />
+        </div>
+        <div>
+            <img src="img/p.gif" width="53" height="53" id='pause' />
+            <img src="img/s.gif" width="100" height="53" id='space' />
+        </div>
+
+    </div>
+</body>
+
+</html>
